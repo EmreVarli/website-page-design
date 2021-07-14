@@ -19,7 +19,7 @@ body {
 
 .navbar {
   width: 100%;
-  height: 5.7em;
+  flex-wrap: wrap;
   background-color: rgb(53, 66, 74);
   border-bottom: 0.2em solid rgb(169, 80, 139);
 }
@@ -204,4 +204,11 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
   color: white;
+}
+
+@media only screen and (max-width:  850px) {
+  .center-flex {
+      justify-content: center;
+      flex-wrap: wrap;
+  }
 }
